@@ -1,27 +1,36 @@
-# AngularUniversal
+# Angular Universal Integriapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
-## Development server
+Angular Universal es un paquete angular que nos permite la implementación del SEO en aplicaciones SPA, este es un instructivo para saber como implementarlo en proyectos angular de integriapp.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Tech
 
-## Code scaffolding
+Dillinger uses a number of open source projects to work properly:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* [Angular 8] 
+* [node.js] 
+* [SCSS] 
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Installation
 
-## Running unit tests
+Instrucciones para la implementación de Angular Universal en proyectos angular de integriapp, sigue estos pasos.
+```sh
+$ Agregar paquete de universal 
+$ npm install -d
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Run proyect
 
-## Running end-to-end tests
+Modo dev/test
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```sh
+$ npm run dev:ssr
+(no necesitas crear el build)
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Modo productivo
+```sh
+$ npm run dev:ssr
+(no necesitas crear el build)
+```
