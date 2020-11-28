@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoremComponent } from './lorem/lorem.component';
-import { AppRoutingModule } from './app-routing.module';
 import { ApiComponent } from './api/api.component';
+import { ApplicationRoutingModule } from './application-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
-  declarations: [LoremComponent, ApiComponent],
+  declarations: [ ApiComponent],
   imports: [
     CommonModule,
-    AppRoutingModule
+    ApplicationRoutingModule,
+    HttpClientModule,
+
   ]
 })
 export class ApplicationModule { }
