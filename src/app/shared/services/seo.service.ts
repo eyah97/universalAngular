@@ -17,6 +17,9 @@ export class SeoService {
     this.meta.updateTag({ name: 'author', content: 'Emmanuel' });
     this.meta.updateTag({ name: 'keywords', content: 'tiempo, rapidez, mejores procesos, innovación , mayor rendimiento, escalabilidad' });
     this.meta.updateTag({ name: 'date', content: '2020-11-27', scheme: 'YYYY-MM-DD' });
+    this.meta.updateTag({ name: 'image', content: 'src/assets/cronómetro-332x205.jpg'});
     this.meta.updateTag({ httpEquiv: 'Content-Type', content: 'text/html' });
+    
+
   }
 }

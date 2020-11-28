@@ -1,1 +1,14 @@
-<p>api works!</p>
+
+<div class="container">
+    <ul *ngFor="let item of posts">
+        <li>
+            <div>
+                <h3> {{item.name}} </h3>
+                <p>
+                    {{item.body}}
+                </p>
+            </div>
+        </li>
+    </ul>
+</div>
+
